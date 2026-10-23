@@ -1,0 +1,69 @@
+d:\mobile\test Dart vs Flutter\
+
+├─ README.md   
+├─ pubspec.yaml 
+├─ analysis_options.yaml
+├─ .env.example
+├─ database/
+│  └─ schema.sql
+├─ lib/
+│  ├─ main.dart
+│  ├─ app.dart
+│  ├─ core/
+│  │  ├─ constants/
+│  │  │  └─ app_colors.dart
+│  │  ├─ config/
+│  │  │  ├─ app_routes.dart
+│  │  │  └─ supabase_client.dart
+│  │  ├─ services/
+│  │  │  ├─ auth_service.dart
+│  │  │  ├─ note_service.dart
+│  │  │  ├─ schedule_service.dart
+│  │  │  └─ export_service.dart
+│  │  └─ utils/
+│  │     └─ date_helper.dart
+│  │
+│  ├─ features/
+│  │  ├─ auth/
+│  │  │  ├─ screens/
+│  │  │  │  ├─ login_screen.dart
+│  │  │  │  └─ register_screen.dart
+│  │  │  └─ widgets/
+│  │  │     └─ auth_field.dart
+│  │  │
+│  │  ├─ home/
+│  │  │  ├─ screens/
+│  │  │  │  └─ home_screen.dart
+│  │  │  └─ widgets/
+│  │  │     └─ nav_drawer.dart
+│  │  │
+│  │  ├─ notes/
+│  │  │  ├─ models/
+│  │  │  │  └─ note_model.dart
+│  │  │  ├─ screens/
+│  │  │  │  ├─ note_list_screen.dart
+│  │  │  │  ├─ note_detail_screen.dart
+│  │  │  │  └─ create_note_screen.dart
+│  │  │  └─ widgets/
+│  │  │     └─ note_card.dart
+│  │  │
+│  │  ├─ schedule/
+│  │  │  ├─ models/
+│  │  │  │  └─ schedule_model.dart
+│  │  │  ├─ screens/
+│  │  │  │  └─ schedule_screen.dart
+│  │  │  └─ widgets/
+│  │  │     └─ schedule_item_card.dart
+│  │  │
+│  │  ├─ checklist/
+│  │  │  ├─ models/
+│  │  │  │  └─ checklist_model.dart
+│  │  │  └─ screens/
+│  │  │     └─ checklist_screen.dart
+│  │  │
+│  │  └─ search/
+│  │     └─ screens/
+│  │        └─ search_screen.dart
+│  │
+│  └─ widgets/
+│     └─ app_theme.dart
